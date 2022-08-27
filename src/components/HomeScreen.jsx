@@ -1,6 +1,6 @@
 import { TablaExcel } from "./TablaExcel";
 import logo from '../assets/vam-logo.png';
-import logoKon from '../assets/logKonecta.jfif';
+import logoKon from '../assets/logKonecta.jpeg';
 import './homeScreen.css';
 
 export const HomeScreen = () => {    
