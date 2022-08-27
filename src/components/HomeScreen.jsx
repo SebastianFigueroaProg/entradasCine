@@ -1,5 +1,5 @@
 import { TablaExcel } from "./TablaExcel";
-import logo from '../assets/vam-logo.png';
+import logo from '../assets/vamLogo.jpeg';
 import logoKon from '../assets/logKonecta.jpeg';
 import './homeScreen.css';
 

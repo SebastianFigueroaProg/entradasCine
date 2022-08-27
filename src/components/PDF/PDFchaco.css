@@ -10,7 +10,7 @@
 }
 .container{
     display: flex;
-    background-image: url('../../assets/entrada-chaco.jpeg');
+    background-image: url('../../assets/entradaChaco.jpeg');
     background-size: cover;
     height: 250px;
     width: 670px;

@@ -1,6 +1,6 @@
 
 import jspdf from 'jspdf'
-import ticketChaco from '../assets/entrada-chaco.jpeg'
+import ticketChaco from '../assets/entradaChaco.jpeg'
 
 
 export const pdfGenerate = (cod1,cod2,cod3,venc,name,site) =>{
