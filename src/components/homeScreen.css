@@ -1,0 +1,20 @@
+.nav{
+    width: 100vw;
+    background-color: #0D0913;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logoVam{
+    margin: 0px  0px 0px 10px;
+    width: 120px;
+    height: 80px;
+}
+.nav .logoKonecta{
+    margin: 0px  0px 0px 10px;
+    width: 90px;
+    height: 80px;
+}
+.nav h2{
+    color: white;
+}
