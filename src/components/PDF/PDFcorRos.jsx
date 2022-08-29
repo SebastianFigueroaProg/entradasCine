@@ -17,8 +17,6 @@ export const PDFcorRos = ({data}) => {
         className='btn-descarga'
         onClick={e=>{
           pdfGenerateCorRos(
-            data.entrada1,
-            data.entrada2,
             data.premio,
             data.vencimiento,
             data.nombre,
