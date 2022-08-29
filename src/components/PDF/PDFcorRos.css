@@ -1,0 +1,64 @@
+.burble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burble h3{
+    margin-top: 40px;
+    margin-bottom: -40px;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    background-image: url('../../assets/entradaCorRos.jpeg');
+    background-size: 670px 250px;
+    height: 250px;
+    width: 670px;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.contenedor .container-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 170px;
+    top: 150px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contenedor .container-text .premio{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contenedor .container-text .fecha{
+    margin-top: 15px;
+    font-size: 0.6rem;
+    margin-bottom: 50px;
+}
+.burble .btn-download{
+    margin-top: 15px;
+    padding: 7px 0px;
+    border-radius: 10px;
+    border: none;
+}
+.burble .btn-download:hover{
+    background-color: rgb(147, 147, 241);
+}
+.burble .btn-descarga{
+    width: 670px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #8785C1;
+    color: rgb(54, 52, 52);
+}
+.burble .btn-descarga:hover{
+    background-color: #6f06f8;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+}

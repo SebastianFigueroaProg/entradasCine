@@ -1,24 +1,24 @@
-.contenedor{
+.contener{
     display: flex;
     justify-content: center;
 } 
-.contenedor table{
+.contener table{
     width: 85vw;
 }
-.contenedor table thead{
+.contener table thead{
     background-color: #3D2F63;
     color: white;
     font-size: 0.9rem;    
 }
-.contenedor table thead tr th{
+.contener table thead tr th{
     height: 30px;
     padding: 2px 5px;
 }
-.contenedor table tbody{
+.contener table tbody{
     background-color: #C1C0C6;
     font-size: 0.70rem;
 }
-.contenedor table tbody tr td{
+.contener table tbody tr td{
     height: 30px;
     padding: 2px 5px;
     text-align: center;

@@ -6,6 +6,7 @@ import { readExcel } from '../helpers/leerExcel';
 import { BiCloudDownload } from "react-icons/bi";
 import './tablaExcel.css';
 import { FileUploader } from '../helpers/FileUploader';
+import { PDFcorRos } from './PDF/PDFcorRos';
 
 export const TablaExcel = () => {
 
@@ -45,7 +46,9 @@ export const TablaExcel = () => {
             !verPDF
                 ? <Table dato={items}/>
                 : (items.map((d)=>(
-                    <PDFchaco key={d.dni} data={d}/>
+                    (d.sitio == 'CHACO')
+                        ? <PDFchaco key={d.dni} data={d}/>
+                        : <PDFcorRos key={d.dni} data={d}/>                    
                 )))
         }
 

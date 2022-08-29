@@ -1,24 +1,22 @@
 import React from 'react';
-import { pdfGenerateChaco } from "../../helpers/crearPDF";
-import './PDFchaco.css';
+import { pdfGenerateCorRos } from "../../helpers/crearPDF";
+import './PDFcorRos.css';
 
-export const PDFchaco = ({data}) => {
+export const PDFcorRos = ({data}) => {
 
   return (
     <div className='burble'>
         <h3>{data.nombre} - {data.sitio}</h3>
-        <section className='container'>
+        <section className='contenedor'>
             <div className='container-text'>
-                <p className='enter1'>{data.entrada1}</p>
-                <p className='enter2'>{data.entrada2}</p>
-                <p className='combo'>{data.premio}</p>
+                <p className='premio'>{data.premio}</p>
                 <p className='fecha'>Vencimiento: {data.vencimiento}</p>
             </div>
         </section>
         <button 
         className='btn-descarga'
         onClick={e=>{
-          pdfGenerateChaco(
+          pdfGenerateCorRos(
             data.entrada1,
             data.entrada2,
             data.premio,

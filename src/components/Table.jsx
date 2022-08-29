@@ -3,7 +3,7 @@ import './table.css';
 
 export const Table = ({dato}) => {
   return (
-    <div className='contenedor'>        
+    <div className='contener'>        
         <table>
             <thead>
                 <tr>
